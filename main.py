@@ -63,10 +63,10 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="http://t.me/abhinavdrmbot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="http://t.me/Education_waale_bot")]])
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="🛠️ Help", url="http://t.me/abhinavdrmbot"), InlineKeyboardButton(text="🛠️ Bot", url="http://t.me/abhinavdrmbot")],
+        [InlineKeyboardButton(text="🛠️ Help", url="http://t.me/Education_waale_bot"), InlineKeyboardButton(text="🛠️ Bot", url="http://t.me/Education_waale_bot")],
     ]
 )
 
