@@ -72,8 +72,8 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://ibb.co/8DBSMQ2T",
-    "https://ibb.co/8DBSMQ2T",
+    "https://ibb.co/n2zWDpW",
+    "https://ibb.co/n2zWDpW",
     # Add more image URLs as needed
 ]
 
