@@ -489,7 +489,7 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
+        photo="https://ibb.co/n2zWDpW",
         caption=caption
     )
 
@@ -526,7 +526,7 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🕸️ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ BoT", url="http://t.me/abhinavdrmbot")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ BoT", url="http://t.me/Education_waale_bot")],
         ])
         
         await start_message.edit_text(
@@ -540,7 +540,7 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ BoT", url="http://t.me/abhinavdrmbot")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ BoT", url="http://t.me/Education_waale_bot")],
         ])
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
@@ -555,7 +555,7 @@ async def back_to_main_menu(client, callback_query):
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ BoT", url="http://t.me/abhinavdrmbot")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ BoT", url="http://t.me/Education_waale_bot")],
         ])
     
     await callback_query.message.edit_media(
@@ -578,7 +578,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
     ),
     reply_markup=keyboard
@@ -617,7 +617,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-    media="https://ibb.co/8DBSMQ2T",
+    media="https://ibb.co/n2zWDpW",
       caption=caption
     ),
     reply_markup=keyboard
@@ -644,7 +644,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
     ),
     reply_markup=keyboard
@@ -672,13 +672,13 @@ async def upgrade_button(client, callback_query):
            f"• 🎓 Utkarsh Protection(Video + PDF)\n"
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
-           f"<b>💵 Monthly Plan: 100 INR</b>\n\n"
+           f"<b>💵 Monthly Plan: 400 INR</b>\n\n"
            f"If you want to buy membership of the bot, feel free to contact [{CREDIT}](tg://user?id={OWNER})\n"
     )  
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
     ),
     reply_markup=keyboard
@@ -698,7 +698,7 @@ async def feature_button(client, callback_query):
   ])
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
     ),
     reply_markup=keyboard
@@ -710,7 +710,7 @@ async def pin_button(client, callback_query):
   caption = f"**Auto Pin 📌 Batch Name :**\n\nAutomatically Pins the Batch Name in Channel or Group, If Starting from the First Link."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -722,7 +722,7 @@ async def watermark_button(client, callback_query):
   caption = f"**Custom Watermark :**\n\nSet Your Own Custom Watermark on Videos for Added Personalization."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -735,7 +735,7 @@ async def restart_button(client, callback_query):
   caption = f"**🔄 Reset Command:**\n\nIf You Want to Reset or Restart Your Bot, Simply Use Command /reset."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -747,7 +747,7 @@ async def pin_button(client, callback_query):
   caption = f"**🖨️ Bot Working Logs:**\n\n◆/logs - Bot Send Working Logs in .txt File."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -759,7 +759,7 @@ async def custom_button(client, callback_query):
   caption = f"**🖋️ Custom File Name:**\n\nSupport for Custom Name before the File Extension.\nAdd name ..when txt is uploading"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -771,7 +771,7 @@ async def titlle_button(client, callback_query):
   caption = f"**Custom Title Feature :**\nAdd and customize titles at the starting\n**NOTE 📍 :** The Titile must enclosed within (Title), Best For appx's .txt file."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -783,7 +783,7 @@ async def pin_button(client, callback_query):
   caption = f"**📢 Broadcasting Support:**\n\n◆/broadcast - 📢 Broadcast to All Users.\n◆/broadusers - 👁️ To See All Broadcasting User"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-    media="https://ibb.co/8DBSMQ2T",
+    media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -795,7 +795,7 @@ async def editor_button(client, callback_query):
   caption = f"**🤖 Available Commands 🗓️**\n◆/t2t for text to .txt file\n"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -807,7 +807,7 @@ async def y2t_button(client, callback_query):
   caption = f"**YouTube Commands:**\n\n◆/y2t - 🔪 YouTube Playlist → .txt Converter\n◆/ytm - 🎶 YouTube → .mp3 downloader\n\n<blockquote><b>◆YouTube → .mp3 downloader\n01. Send YouTube Playlist.txt file\n02. Send single or multiple YouTube links set\neg.\n`https://www.youtube.com/watch?v=xxxxxx\nhttps://www.youtube.com/watch?v=yyyyyy`</b></blockquote>"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://ibb.co/8DBSMQ2T",
+      media="https://ibb.co/n2zWDpW",
       caption=caption
       ),
       reply_markup=keyboard
@@ -1145,12 +1145,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🎬 𝑽𝒊𝒅𝒆𝒐 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1} [{res}p].mkv`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ 💠 §†RÄñGÈ 💁‍♂️ {b_name} \n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
-                cc1 = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 💾 Pdf 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.pdf`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ 💠 ѕтяαηgє 💁‍♂️ {b_name} \n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
-                cczip = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 👝 zip 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.zip`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ 💠 ʂɬཞąŋɠɛ 💁‍♂️ {b_name} \n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
-                ccimg = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🌌 Jpg 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.jpg`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ <blockquote><b>💠 ֆȶʀǟռɢɛ 💁‍♂️</b> {b_name}</blockquote>\n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
-                ccm = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🎧 Music 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.mp3`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ <blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
-                cchtml = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🤖 𝑽𝒊𝒅𝒆𝒐 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.html`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ <blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cc = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🎬 𝑽𝒊𝒅𝒆𝒐 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1} [{res}p].mkv`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ 💠 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡ 💁‍♂️ {b_name} \n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://ibb.co/n2zWDpW)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cc1 = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 💾 Pdf 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.pdf`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ 💠 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡ 💁‍♂️ {b_name} \n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://ibb.co/n2zWDpW)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cczip = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 👝 zip 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.zip`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ 💠 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡ 💁‍♂️ {b_name} \n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://ibb.co/n2zWDpW)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                ccimg = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🌌 Jpg 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.jpg`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ <blockquote><b>💠 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡ 💁‍♂️</b> {b_name}</blockquote>\n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://ibb.co/n2zWDpW)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                ccm = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🎧 Music 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.mp3`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ <blockquote><b>💠 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡ 💁‍♂️</b> {b_name}</blockquote>\n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cchtml = f"✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━╮\n┃ 🤖 𝑽𝒊𝒅𝒆𝒐 𝑻𝒊𝒕𝒍𝒆:  \n┃ ╰▶ `{name1}.html`\n┃\n┃ 🎓 𝑪𝒐𝒖𝒓𝒔𝒆: \n┃ ╰▶ <blockquote><b>💠 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡ 💁‍♂️</b> {b_name}</blockquote>\n┃\n┃ 🤖 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑽𝒊𝒂:  \n┃ ╰▶[{CR}](https://ibb.co/n2zWDpW)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 B͜͡e͜͡r͜͡l͜͡i͜͡n͜͡.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
                   
                 if "drive" in url:
                     try:
